@@ -21,27 +21,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"isyngo.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.10.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":"waline","storage":true,"lazyload":false,"nav":null,"activeClass":"waline"},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="时隔4年，我从Octopress的怀抱投向了Hexo。 08年买的联想老爷机不堪重负，为了保证基本的操作，中途把很多软件都卸载了，包括git和node.js。后忍痛重装了系统。自己一直也没能抽出时间和精力来折腾网站，导致它荒废2年多。一度想起要弄，看到Octopress已经被我改得乱七八糟了，心情又凉了半截。今天算是鼓起了非常大的干劲，花了大把时间，终于用上了Hexo。">
+    <meta name="description" content="此次优化项目：  修改NexT主题布局和配色。  关键点：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="网站优化log3.1">
-<meta property="og:url" content="https://isyngo.com/post/website-optimization-log3-1/">
+<meta property="og:title" content="网站优化log4.4_美化NexT">
+<meta property="og:url" content="https://isyngo.com/post/website-optimization-log4-4/">
 <meta property="og:site_name" content="SYNGO">
-<meta property="og:description" content="时隔4年，我从Octopress的怀抱投向了Hexo。 08年买的联想老爷机不堪重负，为了保证基本的操作，中途把很多软件都卸载了，包括git和node.js。后忍痛重装了系统。自己一直也没能抽出时间和精力来折腾网站，导致它荒废2年多。一度想起要弄，看到Octopress已经被我改得乱七八糟了，心情又凉了半截。今天算是鼓起了非常大的干劲，花了大把时间，终于用上了Hexo。">
+<meta property="og:description" content="此次优化项目：  修改NexT主题布局和配色。  关键点：">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2018-09-28T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-03-21T18:17:55.531Z">
+<meta property="article:published_time" content="2022-03-27T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-03-29T07:53:57.855Z">
 <meta property="article:author" content="syngo">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="NexT">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://isyngo.com/post/website-optimization-log3-1/">
+<link rel="canonical" href="https://isyngo.com/post/website-optimization-log4-4/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://isyngo.com/post/website-optimization-log3-1/","path":"post/website-optimization-log3-1/","title":"网站优化log3.1"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://isyngo.com/post/website-optimization-log4-4/","path":"post/website-optimization-log4-4/","title":"网站优化log4.4_美化NexT"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>网站优化log3.1 | SYNGO</title>
+<title>网站优化log4.4_美化NexT | SYNGO</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29578261-1"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-29578261-1","only_pageview":false}</script>
@@ -139,7 +141,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -152,6 +154,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">1.</span> <span class="nav-text">修改主题配置文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E5%B9%B6%E4%BF%AE%E6%94%B9%E5%AF%B9%E5%BA%94styl%E6%96%87%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">创建并修改对应styl文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%80%89%E5%8F%96%E9%85%8D%E8%89%B2"><span class="nav-number">3.</span> <span class="nav-text">选取配色</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -204,7 +207,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://isyngo.com/post/website-optimization-log3-1/">
+    <link itemprop="mainEntityOfPage" href="https://isyngo.com/post/website-optimization-log4-4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -217,12 +220,12 @@
     </span>
     
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="网站优化log3.1 | SYNGO">
+      <meta itemprop="name" content="网站优化log4.4_美化NexT | SYNGO">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          网站优化log3.1
+          网站优化log4.4_美化NexT
         </h1>
 
         <div class="post-meta-container">
@@ -233,7 +236,7 @@
       </span>
       <span class="post-meta-item-text">发布：</span>
 
-      <time title="创建时间：2018-09-29 00:00:00" itemprop="dateCreated datePublished" datetime="2018-09-29T00:00:00+08:00">2018-09-29</time>
+      <time title="创建时间：2022-03-28 00:00:00" itemprop="dateCreated datePublished" datetime="2022-03-28T00:00:00+08:00">2022-03-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -254,8 +257,8 @@
     </span>
     <span class="post-meta-item-text">评论：</span>
   
-    <a title="waline" href="/post/website-optimization-log3-1/#waline-comments" itemprop="discussionUrl">
-      <span class="post-comments-count waline-comment-count" id="/post/website-optimization-log3-1/" data-xid="/post/website-optimization-log3-1/" itemprop="commentCount"></span>
+    <a title="waline" href="/post/website-optimization-log4-4/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/post/website-optimization-log4-4/" data-xid="/post/website-optimization-log4-4/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -266,7 +269,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>301</span>
+      <span>842</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -284,14 +287,26 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>时隔4年，我从Octopress的怀抱投向了Hexo。</p>
-<p>08年买的联想老爷机不堪重负，为了保证基本的操作，中途把很多软件都卸载了，包括git和node.js。后忍痛重装了系统。自己一直也没能抽出时间和精力来折腾网站，导致它荒废2年多。一度想起要弄，看到Octopress已经被我改得乱七八糟了，心情又凉了半截。今天算是鼓起了非常大的干劲，花了大把时间，终于用上了Hexo。</p>
+        <p>此次优化项目：</p>
+<ol>
+<li>修改NexT主题布局和配色。</li>
+</ol>
+<p>关键点：</p>
 <span id="more"></span>
 
-<p>Hexo操作不算复杂，通过查阅<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">官方文档</a>，可以轻松上手。不过，我耗费了很多时间在主题的选择和配置上，在网上搜了很多其他博主的教程。到目前为止，基本算是成形了，其他待后续细细优化。</p>
-<p>此次优化项目：</p>
-<p>1.使用并配置Hexo；</p>
-<p>2.历史日志转移。</p>
+<h2 id="修改主题配置文件"><a href="#修改主题配置文件" class="headerlink" title="修改主题配置文件"></a>修改主题配置文件</h2><p>取消注释NexT主题配置文件中的 <code>variable</code> <code>mixin</code> <code>style</code> 行。</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="attr">variable:</span> <span class="string">source/_data/variables.styl</span></span><br><span class="line">  <span class="attr">mixin:</span> <span class="string">source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="创建并修改对应styl文件"><a href="#创建并修改对应styl文件" class="headerlink" title="创建并修改对应styl文件"></a>创建并修改对应styl文件</h2><p>在本地根目录的 <code>\source\_data</code> 下新建对应3个文件。</p>
+<p>写法参照NexT主题目录 <code>\source\css</code> 中的文件。</p>
+<h2 id="选取配色"><a href="#选取配色" class="headerlink" title="选取配色"></a>选取配色</h2><p>通过搜索中国传统颜色，选取了苍蓝作为了主要主题色，并分别向深浅递进了几个颜色。最终由深到浅分别是：钢蓝——鸽蓝——灰蓝——苍蓝——鸢尾蓝——清水蓝。接着把正黑和正白替换成了莽丛绿和月白。具体颜色代码可参见下方。</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#0f1423</span> // 钢蓝</span><br><span class="line"><span class="selector-id">#1c2938</span> // 鸽蓝</span><br><span class="line"><span class="selector-id">#21373d</span> // 灰蓝</span><br><span class="line"><span class="selector-id">#134857</span> // 苍蓝</span><br><span class="line"><span class="selector-id">#158bb8</span> // 鸢尾蓝</span><br><span class="line"><span class="selector-id">#93d5dc</span> // 清水蓝</span><br><span class="line"><span class="selector-id">#141e1b</span> // 莽丛绿</span><br><span class="line"><span class="selector-id">#eef7f2</span> // 月白</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>参考</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/leirock/blog">Github - leirock&#x2F;blog</a></li>
+</ul>
 
     </div>
 
@@ -309,7 +324,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://isyngo.com/post/website-optimization-log3-1/" title="网站优化log3.1">https://isyngo.com/post/website-optimization-log3-1/</a>
+      <a href="https://isyngo.com/post/website-optimization-log4-4/" title="网站优化log4.4_美化NexT">https://isyngo.com/post/website-optimization-log4-4/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -317,19 +332,20 @@
 </ul>
 </div>
 
+          <div class="post-tags">
+              <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+              <a href="/tags/NexT/" rel="tag"><i class="fa fa-tag"></i> NexT</a>
+          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/post/Untitled/" rel="prev" title="无题">
-                  <i class="fa fa-chevron-left"></i> 无题
+                <a href="/post/website-optimization-log4-3/" rel="prev" title="网站优化log4.3_配置Waline">
+                  <i class="fa fa-chevron-left"></i> 网站优化log4.3_配置Waline
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/website-optimization-log4-1/" rel="next" title="网站优化log4.1_升级Hexo和NexT">
-                  网站优化log4.1_升级Hexo和NexT <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -401,7 +417,7 @@
 
 
 
-<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"https://comments.isyngo.com/","placeholder":"说点什么吧...（评论通过审核后才会显示。昵称和邮箱必填。回复通过邮件提醒。）","avatar":"retro","pageSize":10,"visitor":false,"comment_count":true,"requiredFields":["nick","mail"],"meta":["nick","mail","link"],"libUrl":"https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js","uploadImage":false,"el":"#waline-comments","path":"/post/website-optimization-log3-1/"}</script>
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"https://comments.isyngo.com/","placeholder":"说点什么吧...（评论通过审核后才会显示。昵称和邮箱必填。回复通过邮件提醒。）","avatar":"retro","pageSize":10,"visitor":false,"comment_count":true,"requiredFields":["nick","mail"],"meta":["nick","mail","link"],"libUrl":"https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js","uploadImage":false,"el":"#waline-comments","path":"/post/website-optimization-log4-4/"}</script>
 <script>
 document.addEventListener('page:loaded', () => {
   NexT.utils.loadComments(CONFIG.waline.el).then(() => 

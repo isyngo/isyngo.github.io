@@ -2,20 +2,20 @@
   --body-bg-color: #eee;
   --content-bg-color: #fff;
   --card-bg-color: #f5f5f5;
-  --text-color: #1c1c21;
+  --text-color: #141e1b;
   --blockquote-color: #666;
-  --link-color: #1c1c21;
-  --link-hover-color: #0477ab;
+  --link-color: #141e1b;
+  --link-hover-color: #158bb8;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #f5f5f5;
   --theme-color: #222;
-  --btn-default-bg: #3f5973;
+  --btn-default-bg: #134857;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
-  --btn-default-hover-bg: #649ab6;
+  --btn-default-hover-bg: #93d5dc;
   --btn-default-hover-color: #fff;
   --btn-default-hover-border-color: #222;
   --highlight-background: #f3f3f3;
@@ -550,7 +550,7 @@ pre code {
   width: 100%;
 }
 .post-body .label {
-  color: #1c1c21;
+  color: #141e1b;
   padding: 0 2px;
 }
 .post-body .label.default {
@@ -1413,16 +1413,16 @@ pre code {
   margin-left: 10px;
 }
 .sidebar-nav li:hover {
-  color: #0477ab;
+  color: #158bb8;
 }
 .sidebar-toc-active .sidebar-nav-toc,
 .sidebar-overview-active .sidebar-nav-overview {
-  border-bottom-color: #0477ab;
-  color: #0477ab;
+  border-bottom-color: #158bb8;
+  color: #158bb8;
 }
 .sidebar-toc-active .sidebar-nav-toc:hover,
 .sidebar-overview-active .sidebar-nav-overview:hover {
-  color: #0477ab;
+  color: #158bb8;
 }
 .sidebar-panel-container {
   flex: 1;
@@ -1466,7 +1466,7 @@ pre code {
   }
 }
 .sidebar-toggle:hover .toggle-line {
-  background: #0477ab;
+  background: #158bb8;
 }
 @media (any-hover: hover) {
   body:not(.sidebar-active) .sidebar-toggle:hover .toggle-line:first-child {
@@ -1527,14 +1527,14 @@ pre code {
   display: block;
 }
 .post-toc .nav .active > a {
-  border-bottom-color: #0477ab;
-  color: #0477ab;
+  border-bottom-color: #158bb8;
+  color: #158bb8;
 }
 .post-toc .nav .active-current > a {
-  color: #0477ab;
+  color: #158bb8;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #0477ab;
+  color: #158bb8;
 }
 .footer {
   color: #999;
@@ -1688,7 +1688,7 @@ pre code {
   }
 }
 .back-to-top:hover {
-  color: #0477ab;
+  color: #158bb8;
 }
 .back-to-top.back-to-top-on {
   bottom: 30px;
@@ -2100,7 +2100,7 @@ pre code {
   list-style: none;
   padding: 0.5em 1em;
   background: var(--card-bg-color);
-  border-left: 3px solid #3f5973;
+  border-left: 3px solid #134857;
   margin: 1em 0 0;
 }
 .post-tags {
@@ -2139,18 +2139,18 @@ pre code {
 }
 .reward-container button {
   background: transparent;
-  color: #0477ab;
+  color: #158bb8;
   cursor: pointer;
   line-height: 2;
   padding: 0 15px;
-  border: 2px solid #0477ab;
+  border: 2px solid #158bb8;
   border-radius: 2px;
   outline: 0;
   transition: all 0.2s ease-in-out;
   vertical-align: text-top;
 }
 .reward-container button:hover {
-  background: #0477ab;
+  background: #158bb8;
   color: #fff;
 }
 .post-reward {
@@ -2673,14 +2673,14 @@ mark.search-keyword {
 }
 .sub-menu .menu-item a:hover {
   background: transparent;
-  color: #0477ab;
+  color: #158bb8;
 }
 .sub-menu .menu-item-active {
-  border-bottom-color: #0477ab;
-  color: #0477ab;
+  border-bottom-color: #158bb8;
+  color: #158bb8;
 }
 .sub-menu .menu-item-active:hover {
-  border-bottom-color: #0477ab;
+  border-bottom-color: #158bb8;
 }
 .sidebar {
   margin-top: 12px;
@@ -2869,14 +2869,14 @@ body {
 }
 /* Day of Mourning */
 .site-brand-container {
-  background: #3f5973;
+  background: #134857;
 }
 /* sidebar-标题 */
 .site-title {
   font-weight: bold;
 }
 .site-title:hover {
-  color: #649ab6;
+  color: #93d5dc;
 }
 /* sidebar-副标题 */
 .site-subtitle {
@@ -2907,7 +2907,7 @@ body {
 /* post-首页文章标题 */
 .index .post-title {
   text-align: left;
-  border-left: #3f5973 8px solid;
+  border-left: #134857 8px solid;
   padding-left: 10px;
 }
 /* post-首页文章信息 */
@@ -2957,7 +2957,7 @@ p {
 }
 /* post-引用与 note 字体 */
 blockquote {
-  border-left: 4px solid #649ab6;
+  border-left: 4px solid #93d5dc;
 }
 /* post-行内代码 */
 code {
@@ -2981,7 +2981,7 @@ li {
 }
 /* button-back2top */
 .back-to-top {
-  background: #3f5973;
+  background: #134857;
   opacity: 0.8;
   font-weight: bold;
   font-size: 1em;
@@ -3042,14 +3042,14 @@ li {
 .pagination .next:hover,
 .pagination .page-number:hover {
   color: #fff;
-  background: #649ab6;
+  background: #93d5dc;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 /* pagination-当前页码 */
 .pagination .page-number.current {
-  background: #3f5973;
+  background: #134857;
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -3085,7 +3085,7 @@ li {
     padding: 10px 15px;
     font-weight: bold;
     color: #fff;
-    background: #3f5973;
+    background: #134857;
     border-bottom: none;
     border-radius: 15px;
     -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -3096,7 +3096,7 @@ li {
     -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background: #649ab6 !important;
+    background: #93d5dc !important;
   }
   li.category-list-item a:hover {
     text-decoration: none;
@@ -3119,7 +3119,7 @@ li {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background: #649ab6 !important;
+  background: #93d5dc !important;
 }
 .tag-cloud a:hover,
 .posts-expand .post-tags a:hover {
@@ -3130,7 +3130,7 @@ li {
   .tag-cloud a,
   .posts-expand .post-tags a {
     color: var(--text-color) !important;
-    background: #3f5973;
+    background: #134857;
   }
 }
 /************************* Waline Comment ************************/
@@ -3159,23 +3159,23 @@ li {
 /* comment-输入框黑暗模式 */
 @media (prefers-color-scheme: dark) {
   body {
-    --waline-text-color: #c9d1d9 !important;
-    --waline-bgcolor: #192734 !important;
-    --waline-bgcolor-light: #15202b !important;
+    --waline-text-color: #eef7f2 !important;
+    --waline-bgcolor: #21373d !important;
+    --waline-bgcolor-light: #1c2938 !important;
   }
 }
 /* comment-登录按钮 */
 .v[data-class=v] .vbtn:hover {
-  border-color: #649ab6 !important;
-  color: #649ab6 !important;
+  border-color: #93d5dc !important;
+  color: #93d5dc !important;
 }
 /* comment-评论提交按钮 */
 .v[data-class=v] .vbtn.primary {
   color: #fff !important;
-  border-color: #3f5973 !important;
-  background: #3f5973 !important;
+  border-color: #134857 !important;
+  background: #134857 !important;
 }
 .v[data-class=v] .vbtn.primary:hover {
-  border-color: #649ab6 !important;
-  background: #649ab6 !important;
+  border-color: #93d5dc !important;
+  background: #93d5dc !important;
 }
