@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LXGW:300,300italic,400,400italic,700,700italic%7C'PingFang+SC':300,300italic,400,400italic,700,700italic%7C'Microsoft+YaHei':300,300italic,400,400italic,700,700italic%7Csans-serif:300,300italic,400,400italic,700,700italic%7CLobster:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" integrity="sha256-jTIdiMuX/e3DGJUGwl3pKSxuc6YOuqtJYkM0bGQESA4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"isyngo.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.10.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":"waline","storage":true,"lazyload":false,"nav":null,"activeClass":"waline"},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="偶然看到一个会计中编制记账凭证的例题：  12月31日，企业销售产品30,000，销项税额5,100（17%），收到部分货款10,000，其余暂未付清。原始单据有专用发票、提货单、收款单。请根据以上编制一张记账凭证。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="多借多贷的思考">
+<meta property="og:url" content="http://isyngo.com/post/finance-the-thinking-of-multiple-debits-and-credits/">
+<meta property="og:site_name" content="SYNGO">
+<meta property="og:description" content="偶然看到一个会计中编制记账凭证的例题：  12月31日，企业销售产品30,000，销项税额5,100（17%），收到部分货款10,000，其余暂未付清。原始单据有专用发票、提货单、收款单。请根据以上编制一张记账凭证。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2012-12-13T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-03-21T18:17:55.021Z">
+<meta property="article:author" content="syngo">
+<meta property="article:tag" content="Accounting">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://isyngo.com/post/finance-the-thinking-of-multiple-debits-and-credits/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://isyngo.com/post/finance-the-thinking-of-multiple-debits-and-credits/","path":"post/finance-the-thinking-of-multiple-debits-and-credits/","title":"多借多贷的思考"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>多借多贷的思考 | SYNGO</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29578261-1"></script>
+  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-29578261-1","only_pageview":false}</script>
+  <script src="/js/third-party/analytics/google-analytics.js"></script>
+
+
+
+
+<link rel="dns-prefetch" href="https://comments.isyngo.com/">
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">SYNGO</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">For fun, for life, for sharing</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">5</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">4</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">25</span></a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="syngo"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">syngo</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/isyngo" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;isyngo" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:isyngo@qq.com" title="E-Mail → mailto:isyngo@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://isyngo.com/post/finance-the-thinking-of-multiple-debits-and-credits/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="syngo">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SYNGO">
+      <meta itemprop="description" content="">
+    </span>
+    
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="多借多贷的思考 | SYNGO">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          多借多贷的思考
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发布：</span>
+
+      <time title="创建时间：2012-12-14 00:00:00" itemprop="dateCreated datePublished" datetime="2012-12-14T00:00:00+08:00">2012-12-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类：</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%B4%A2%E5%8A%A1/" itemprop="url" rel="index"><span itemprop="name">财务</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">评论：</span>
+  
+    <a title="waline" href="/post/finance-the-thinking-of-multiple-debits-and-credits/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/post/finance-the-thinking-of-multiple-debits-and-credits/" data-xid="/post/finance-the-thinking-of-multiple-debits-and-credits/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.2k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>偶然看到一个会计中编制记账凭证的例题：</p>
+<blockquote>
+<p>12月31日，企业销售产品30,000，销项税额5,100（17%），收到部分货款10,000，其余暂未付清。原始单据有专用发票、提货单、收款单。请根据以上编制一张记账凭证。</p>
+</blockquote>
+<span id="more"></span>
+
+<p>一般的都会先写会计分录：</p>
+<blockquote>
+<p>借：银行存款10,000<br>应收账款25,100<br>贷：主营业务收入30,000<br>应交税费——应缴增值税（销项）5,100</p>
+</blockquote>
+<p>接下来编制凭证，一般的企业都是通用记账凭证，这倒也还好，但是，如果企业是用的3种类型（收、付、转）或者5种类型（现收、银收、现付、银付、转）的记账凭证类型，那就出现问题了，编号时登记什么类型的凭证才合理呢？分录中是借方有银行存款，贷方没有，所以按理来说是登记3种类型中的收，或者是5种类型中的银收。但是收款凭证或者付款凭证都是一借或者一贷的形式，所以，这笔分录应该拆开来写：</p>
+<blockquote>
+<p>1、销售产品<br>借：应收账款35,100<br>贷：主营业务收入30,000<br>应交税费——应缴增值税（销项）5,100</p>
+</blockquote>
+<blockquote>
+<p>2、收到货款<br>借：银行存款10,000<br>贷：应收账款10,000</p>
+</blockquote>
+<p>这样一来，就先编制一张转账凭证，再编制一张收款凭证。</p>
+<p>其实，会计分录按照所涉及的账户多少，可分为一借一贷，一借多贷，一贷多借和多借多贷的会计分录。但是多借多贷的会计分录的对应关系不明晰，像上面的这个例题，在实际工作中，可能会给后续的会计核算工作带来麻烦，所以除特殊情况外，一般不建议使用。照如此看来，这个例题成了多此一举。可在《农村财务会计》期刊2010年7月的期刊中，有一篇多借多贷宜慎行的文章，作者向成生在文中引用了《农民专业合作社财务会计（试行）辅导读本》中的两个多借多贷的案例，其中一个案例如下：</p>
+<blockquote>
+<p>成员单位退社时，合作社应退给成员单位股金40,000元。合作社决定一台拖拉机和现金退还。退还时，拖拉机账面原价值30,000元，已提折旧4,000元，余款现金支付。</p>
+</blockquote>
+<p>在这个案例中，合作社股金、固定资产、累计折旧和库存现金同时减少，则会计分录为：</p>
+<blockquote>
+<p>借：股金—法人股金40,000<br>累计折旧4,000<br>贷：固定资产—拖拉机30,000<br>库存现金14,000</p>
+</blockquote>
+<p>其实上面的复合分录和拆分成：</p>
+<blockquote>
+<p>第一步：按照固定资产处置的要求，先将折抵退股股金的拖拉机转入清理，按拖拉机净值转入“固定资产清理”账户。</p>
+<p>借：固定资产清理26,000<br>累计折旧4,000<br>贷：固定资产30,000</p>
+</blockquote>
+<blockquote>
+<p>第二步：将转入“固定资产清理”账户的拖拉机净值再转入“股金”账户，冲减等值的股金数额，不足部分用库存现金兑付。</p>
+<p>借：股金—法人股金40,000<br>贷：固定资产清理26,000<br>库存现金14,000</p>
+</blockquote>
+<p>文章作者提出，写复合分录是对合作社会计人员基础功的考验，但实际上有相当一部分会计人员根本就没有接触过会计业务，也没有接受过会计理论学习，对经济业务所涉及的会计科目难以准确确定，更别说直接按照复合分录填制记账凭证了。所以，复合分录是要谨慎推行，先易后难，逐步提高。</p>
+<p>由此看来，多借多贷的复合分录还是不要轻易写出。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>syngo
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://isyngo.com/post/finance-the-thinking-of-multiple-debits-and-credits/" title="多借多贷的思考">http://isyngo.com/post/finance-the-thinking-of-multiple-debits-and-credits/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Accounting/" rel="tag"><i class="fa fa-tag"></i> Accounting</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/website-optimization-log1-5/" rel="prev" title="网站优化log1.5">
+                  <i class="fa fa-chevron-left"></i> 网站优化log1.5
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/something-about-friendship/" rel="next" title="有关乎于友情">
+                  有关乎于友情 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline-comments"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2009 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-laugh"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">syngo</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">12k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">11 分钟</span>
+  </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+
+  
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"https://comments.isyngo.com/","placeholder":"说点什么吧...（评论通过审核后才会显示。昵称和邮箱必填。回复通过邮件提醒。）","avatar":"retro","pageSize":10,"visitor":false,"comment_count":true,"requiredFields":["nick","mail"],"meta":["nick","mail","link"],"libUrl":"https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js","uploadImage":false,"el":"#waline-comments","path":"/post/finance-the-thinking-of-multiple-debits-and-credits/"}</script>
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() => 
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => {
+    new Waline(CONFIG.waline);
+  });
+});
+</script>
+</body>
+</html>
