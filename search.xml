@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>傻傻的小九九</title>
-    <url>/post/silly-in-of-of-small-ninety/</url>
-    <content><![CDATA[<p>我躲在黑暗角落，静默地看着灯光下的你四处张望，那般焦急，那般不安，我却像个傻傻小孩，心里开出一朵绚烂硕大的花。</p>
-<p>终于你还是把我找到，斥骂到，小鬼，你待这里干嘛！害我到处找你！我偷偷咯咯地笑，嗅到热热的空气里有丝在乎的香甜味道。</p>
-<span id="more"></span>
-
-<p>想要做成永不变质的巧克力，放在我的上衣口袋里。</p>
-<p>傻傻的小小孩，你何时才能不傻，何时才能长大呢？</p>
-<p>没有答案。</p>
-]]></content>
-      <categories>
-        <category>吊针</category>
-      </categories>
-  </entry>
-  <entry>
     <title>渴奈</title>
     <url>/post/thirsty-chennai/</url>
     <content><![CDATA[<p>误入海湖</p>
@@ -28,6 +13,21 @@
 <p>还是华丽地守护</p>
 <p>只能轻诉</p>
 <p>无缘俘虏默契的归宿</p>
+]]></content>
+      <categories>
+        <category>吊针</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>傻傻的小九九</title>
+    <url>/post/silly-in-of-of-small-ninety/</url>
+    <content><![CDATA[<p>我躲在黑暗角落，静默地看着灯光下的你四处张望，那般焦急，那般不安，我却像个傻傻小孩，心里开出一朵绚烂硕大的花。</p>
+<p>终于你还是把我找到，斥骂到，小鬼，你待这里干嘛！害我到处找你！我偷偷咯咯地笑，嗅到热热的空气里有丝在乎的香甜味道。</p>
+<span id="more"></span>
+
+<p>想要做成永不变质的巧克力，放在我的上衣口袋里。</p>
+<p>傻傻的小小孩，你何时才能不傻，何时才能长大呢？</p>
+<p>没有答案。</p>
 ]]></content>
       <categories>
         <category>吊针</category>
@@ -58,21 +58,6 @@
 ]]></content>
       <categories>
         <category>随感</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>酒精随笔</title>
-    <url>/post/alcohol-essays/</url>
-    <content><![CDATA[<p>酒后不经意的言语，透露出一个人的真内心。</p>
-<p>面上一闪而过的微表情，凸显此时的真情绪。</p>
-<p>当你还在彷徨究竟该拿什么样的态度去面对时，它的真真假假，假假真真，在当事人的一觉之后，变得无关紧要。抑或是偶尔闲谈的玩笑把柄罢了。而我偏信于它的真。</p>
-<span id="more"></span>
-
-<p>酒精真是个神奇的东西，流经你的身体，也流出了你自己。</p>
-<p>一闪而过，稍纵即逝，是用来描述一种很快的状态。快比慢其实更有故事，只是它快得在你还没意识到时就结束了。发掘是纠结的，而我宁愿不要太在意。</p>
-]]></content>
-      <categories>
-        <category>吊针</category>
       </categories>
   </entry>
   <entry>
@@ -109,6 +94,44 @@
 ]]></content>
       <categories>
         <category>随感</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>酒精随笔</title>
+    <url>/post/alcohol-essays/</url>
+    <content><![CDATA[<p>酒后不经意的言语，透露出一个人的真内心。</p>
+<p>面上一闪而过的微表情，凸显此时的真情绪。</p>
+<p>当你还在彷徨究竟该拿什么样的态度去面对时，它的真真假假，假假真真，在当事人的一觉之后，变得无关紧要。抑或是偶尔闲谈的玩笑把柄罢了。而我偏信于它的真。</p>
+<span id="more"></span>
+
+<p>酒精真是个神奇的东西，流经你的身体，也流出了你自己。</p>
+<p>一闪而过，稍纵即逝，是用来描述一种很快的状态。快比慢其实更有故事，只是它快得在你还没意识到时就结束了。发掘是纠结的，而我宁愿不要太在意。</p>
+]]></content>
+      <categories>
+        <category>吊针</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站优化log1.2</title>
+    <url>/post/website-optimization-log1-2/</url>
+    <content><![CDATA[<p>今天又折腾了下，优化了一些关键项目，还是挺高兴的。</p>
+<p>此次优化项目：</p>
+<p>1.添加回到顶部小工具；</p>
+<p>2.改变评论框，提供某些社会化网站账号的登陆功能；</p>
+<span id="more"></span>
+
+<p>3.底部添加署名-非商业性使用-禁止演绎 2.5 中国大陆标签。</p>
+<p>详情如下：</p>
+<p>1.本来打算用改代码的方式修改，改来改去，都没有成功，只好寻找插件，最终选用 dynamic to top plugin；</p>
+<p>P.S这个插件的设置在外观菜单中，害我在插件和设置菜单中找了很久。</p>
+<p>2.评论框换了两次，第一次是想增加@user 类似twitter的功能，还有强化评论的使用和管理。找了两个插件，分别是 @ Reply 和 WordPress Thread Comment ，还更换了wordpress自带的表情，用 Custom Smilies ，表情包是在网上搜的。后来无意中点到一个支持部分社会化网站账号登陆的插件—— 多说 。虽然不支持饭否、twitter等之类的网站，不过在当下是足够用了。表情也很丰富。由于多说会覆盖掉之前的几个评论插件，所以取消了第一次的更改，直接只用了多说；</p>
+<p>3.署名-非商业性使用-禁止演绎 2.5 中国大陆标签 ，好似没什么好说的。我就把代码直接复制到footer.php中。</p>
+<p>接下来的优化任务：</p>
+<p>1.寻求最佳备份方式；</p>
+<p>2.主机到本地之间的转移测试。</p>
+]]></content>
+      <categories>
+        <category>网站LOG</category>
       </categories>
   </entry>
   <entry>
@@ -159,23 +182,16 @@
       </categories>
   </entry>
   <entry>
-    <title>网站优化log1.2</title>
-    <url>/post/website-optimization-log1-2/</url>
-    <content><![CDATA[<p>今天又折腾了下，优化了一些关键项目，还是挺高兴的。</p>
-<p>此次优化项目：</p>
-<p>1.添加回到顶部小工具；</p>
-<p>2.改变评论框，提供某些社会化网站账号的登陆功能；</p>
-<span id="more"></span>
-
-<p>3.底部添加署名-非商业性使用-禁止演绎 2.5 中国大陆标签。</p>
-<p>详情如下：</p>
-<p>1.本来打算用改代码的方式修改，改来改去，都没有成功，只好寻找插件，最终选用 dynamic to top plugin；</p>
-<p>P.S这个插件的设置在外观菜单中，害我在插件和设置菜单中找了很久。</p>
-<p>2.评论框换了两次，第一次是想增加@user 类似twitter的功能，还有强化评论的使用和管理。找了两个插件，分别是 @ Reply 和 WordPress Thread Comment ，还更换了wordpress自带的表情，用 Custom Smilies ，表情包是在网上搜的。后来无意中点到一个支持部分社会化网站账号登陆的插件—— 多说 。虽然不支持饭否、twitter等之类的网站，不过在当下是足够用了。表情也很丰富。由于多说会覆盖掉之前的几个评论插件，所以取消了第一次的更改，直接只用了多说；</p>
-<p>3.署名-非商业性使用-禁止演绎 2.5 中国大陆标签 ，好似没什么好说的。我就把代码直接复制到footer.php中。</p>
-<p>接下来的优化任务：</p>
-<p>1.寻求最佳备份方式；</p>
-<p>2.主机到本地之间的转移测试。</p>
+    <title>网站优化log1.5</title>
+    <url>/post/website-optimization-log1-5/</url>
+    <content><![CDATA[<p>此次优化项目：</p>
+<ol>
+<li><p>wordpress版本更新至3.4；</p>
+</li>
+<li><p>增加wiki页面，不过还在完善中，暂不公布地址。</p>
+</li>
+</ol>
+<p>详情略。</p>
 ]]></content>
       <categories>
         <category>网站LOG</category>
@@ -268,6 +284,60 @@
       </categories>
   </entry>
   <entry>
+    <title>有关乎于友情</title>
+    <url>/post/something-about-friendship/</url>
+    <content><![CDATA[<p>前几日无意逛知道的时候，提示有几个为我推荐的提问，点开发现一个有关人际关系和个性敏感的问题，当下就触到我了，于是在不知不觉中洋洋洒洒地写了几百字，大致如下：</p>
+<span id="more"></span>
+
+<blockquote>
+<p>首先，你可能内心有点自卑，你没有足够的自信去把握住友情，你觉得山外有山，人外有人，你最要好的朋友总会有比你要好的朋友，另一方面，你太看重友情，视为救命稻草一般，所以你才会怕说错话，做错事。</p>
+<p>其实，敏感不是病，也不是错，这是上天赐予你的一个性格，试想，如果普天下的人都一个样，那社会还有什么发展的前途而言，只有存在不同的个体，才组成了这个丰富多彩的社会。你要把你的敏感发挥出长处，比如，正是你的敏感，你才会细心，你才能洞察别人看不到的细节，所以你对事情会有独到的见解。</p>
+<p>有时候，友情也靠一点缘分，有些人注定是成为不了真正的朋友，你也许会换很多朋友，也许会亲近了又疏远，疏远了又亲近，友情是你生活的一部分，但不是全部，你没有必要把自己的注意力集中在此，随性随缘地去面对他，玩得来就玩，玩不来就不玩，矛盾吵架该面对的面对，可以解决的就解决，这都是必经的过程，只有经历过某些，你才能找到自己真正的朋友，真正会在危急时刻帮助你的朋友。</p>
+<p>我个人认为，情绪是相互影响的，如果你觉得尴尬，他们也会尴尬，你自己心态调整好了，也就不会担心这个问题了，也就不会有这些情况了。</p>
+<p>人闲下来的时候就会想太多，你可以试着做些什么，一个人真正忙起来的时候，脑子里是容不下其他事情的，不知道你是在读书还是工作之类的，珍惜此刻的时光，认清自己当下该做的事情，朝着前方迈进，至于心理医生，我觉得你还不至于到那一步，真正有病的人是认不清自己的问题的。</p>
+</blockquote>
+<p>之所以我会有强烈的反应，是因为我高中经历了类似的事情，而且摸爬滚打几年以后，直至大学时期都要接近尾声了，才对这些有了一些新的感悟，虽不算非常完整，但也是一个突破。那些在午夜试探友情的电话，那些怕失去而太在乎的极端想法，在几年以后看来，都是幼稚的，幼稚又夹杂着必然和必须。老天在磨练我的意志，助我形成人生价值观。</p>
+<p>我们在乎一些人，而一些人在乎我们，当这些人没有了交集，便是一个两极分化，不得好心的趋势。俗话说，识时务者为俊杰，我认为，友情也包括在内，作出我们觉得正确的抉择，继续还是放弃，让心有所选。</p>
+]]></content>
+      <categories>
+        <category>随感</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站优化log2.1</title>
+    <url>/post/website-optimization-log2-1/</url>
+    <content><![CDATA[<p>年初给wordpress升了次级后，不知怎么搞的，突然就没办法发布新文章了。断断续续倒腾了几次无果，最终不了了之。前些日子无意点开以前收藏的octopress书签，一咬牙，决定投入octopress的怀抱。</p>
+<span id="more"></span>
+
+<p>此次优化项目：</p>
+<p>1.使用octopress；</p>
+<p>2.历史日志转移；</p>
+<p>3.使用多说评论（历史评论同步出错，待处理）。</p>
+]]></content>
+      <categories>
+        <category>网站LOG</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>网站优化log1.7</title>
+    <url>/post/website-optimization-log1-7/</url>
+    <content><![CDATA[<p>此次优化项目：</p>
+<ol>
+<li><p>wordpress版本更新至3.5.2；</p>
+</li>
+<li><p>主题和其他插件更新；</p>
+</li>
+</ol>
+<p>详情如下：</p>
+<span id="more"></span>
+
+<p>之前更新wordpress的时候都用得比较麻烦和保守的方法，这次偷了下懒，备份好网站文件和数据库后，直接在仪表盘的更新中点击更新，竟然成功了，而且没有出现问题。我想这应该只能针对小版本号的更新吧，如果版本更新动作比较大的话，还是要选择保守的方式。</p>
+]]></content>
+      <categories>
+        <category>网站LOG</category>
+      </categories>
+  </entry>
+  <entry>
     <title>多借多贷的思考</title>
     <url>/post/finance-the-thinking-of-multiple-debits-and-credits/</url>
     <content><![CDATA[<p>偶然看到一个会计中编制记账凭证的例题：</p>
@@ -316,58 +386,27 @@
       </tags>
   </entry>
   <entry>
-    <title>网站优化log1.5</title>
-    <url>/post/website-optimization-log1-5/</url>
-    <content><![CDATA[<p>此次优化项目：</p>
-<ol>
-<li><p>wordpress版本更新至3.4；</p>
-</li>
-<li><p>增加wiki页面，不过还在完善中，暂不公布地址。</p>
-</li>
-</ol>
-<p>详情略。</p>
+    <title>无题</title>
+    <url>/post/Untitled/</url>
+    <content><![CDATA[<p>妈蛋，<br>猴子偷了我的稀饭。</p>
+<p>不管，<br>香蕉拿来分我一半。</p>
+<p>难堪，<br>终会有人过来买单。</p>
+<p>掰腕，<br>去接受傀儡的审判。</p>
 ]]></content>
       <categories>
-        <category>网站LOG</category>
+        <category>吊针</category>
       </categories>
   </entry>
   <entry>
-    <title>网站优化log1.7</title>
-    <url>/post/website-optimization-log1-7/</url>
-    <content><![CDATA[<p>此次优化项目：</p>
-<ol>
-<li><p>wordpress版本更新至3.5.2；</p>
-</li>
-<li><p>主题和其他插件更新；</p>
-</li>
-</ol>
-<p>详情如下：</p>
-<span id="more"></span>
-
-<p>之前更新wordpress的时候都用得比较麻烦和保守的方法，这次偷了下懒，备份好网站文件和数据库后，直接在仪表盘的更新中点击更新，竟然成功了，而且没有出现问题。我想这应该只能针对小版本号的更新吧，如果版本更新动作比较大的话，还是要选择保守的方式。</p>
+    <title>无题</title>
+    <url>/post/Untitled/</url>
+    <content><![CDATA[<p>流水似无情，</p>
+<p>拨乱有几分。</p>
+<p>梅花点点落，</p>
+<p>拾来蓄单襟。</p>
 ]]></content>
       <categories>
-        <category>网站LOG</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>有关乎于友情</title>
-    <url>/post/something-about-friendship/</url>
-    <content><![CDATA[<p>前几日无意逛知道的时候，提示有几个为我推荐的提问，点开发现一个有关人际关系和个性敏感的问题，当下就触到我了，于是在不知不觉中洋洋洒洒地写了几百字，大致如下：</p>
-<span id="more"></span>
-
-<blockquote>
-<p>首先，你可能内心有点自卑，你没有足够的自信去把握住友情，你觉得山外有山，人外有人，你最要好的朋友总会有比你要好的朋友，另一方面，你太看重友情，视为救命稻草一般，所以你才会怕说错话，做错事。</p>
-<p>其实，敏感不是病，也不是错，这是上天赐予你的一个性格，试想，如果普天下的人都一个样，那社会还有什么发展的前途而言，只有存在不同的个体，才组成了这个丰富多彩的社会。你要把你的敏感发挥出长处，比如，正是你的敏感，你才会细心，你才能洞察别人看不到的细节，所以你对事情会有独到的见解。</p>
-<p>有时候，友情也靠一点缘分，有些人注定是成为不了真正的朋友，你也许会换很多朋友，也许会亲近了又疏远，疏远了又亲近，友情是你生活的一部分，但不是全部，你没有必要把自己的注意力集中在此，随性随缘地去面对他，玩得来就玩，玩不来就不玩，矛盾吵架该面对的面对，可以解决的就解决，这都是必经的过程，只有经历过某些，你才能找到自己真正的朋友，真正会在危急时刻帮助你的朋友。</p>
-<p>我个人认为，情绪是相互影响的，如果你觉得尴尬，他们也会尴尬，你自己心态调整好了，也就不会担心这个问题了，也就不会有这些情况了。</p>
-<p>人闲下来的时候就会想太多，你可以试着做些什么，一个人真正忙起来的时候，脑子里是容不下其他事情的，不知道你是在读书还是工作之类的，珍惜此刻的时光，认清自己当下该做的事情，朝着前方迈进，至于心理医生，我觉得你还不至于到那一步，真正有病的人是认不清自己的问题的。</p>
-</blockquote>
-<p>之所以我会有强烈的反应，是因为我高中经历了类似的事情，而且摸爬滚打几年以后，直至大学时期都要接近尾声了，才对这些有了一些新的感悟，虽不算非常完整，但也是一个突破。那些在午夜试探友情的电话，那些怕失去而太在乎的极端想法，在几年以后看来，都是幼稚的，幼稚又夹杂着必然和必须。老天在磨练我的意志，助我形成人生价值观。</p>
-<p>我们在乎一些人，而一些人在乎我们，当这些人没有了交集，便是一个两极分化，不得好心的趋势。俗话说，识时务者为俊杰，我认为，友情也包括在内，作出我们觉得正确的抉择，继续还是放弃，让心有所选。</p>
-]]></content>
-      <categories>
-        <category>随感</category>
+        <category>吊针</category>
       </categories>
   </entry>
   <entry>
@@ -383,33 +422,6 @@
       </categories>
   </entry>
   <entry>
-    <title>网站优化log2.1</title>
-    <url>/post/website-optimization-log2-1/</url>
-    <content><![CDATA[<p>年初给wordpress升了次级后，不知怎么搞的，突然就没办法发布新文章了。断断续续倒腾了几次无果，最终不了了之。前些日子无意点开以前收藏的octopress书签，一咬牙，决定投入octopress的怀抱。</p>
-<span id="more"></span>
-
-<p>此次优化项目：</p>
-<p>1.使用octopress；</p>
-<p>2.历史日志转移；</p>
-<p>3.使用多说评论（历史评论同步出错，待处理）。</p>
-]]></content>
-      <categories>
-        <category>网站LOG</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>无题</title>
-    <url>/post/Untitled/</url>
-    <content><![CDATA[<p>妈蛋，<br>猴子偷了我的稀饭。</p>
-<p>不管，<br>香蕉拿来分我一半。</p>
-<p>难堪，<br>终会有人过来买单。</p>
-<p>掰腕，<br>去接受傀儡的审判。</p>
-]]></content>
-      <categories>
-        <category>吊针</category>
-      </categories>
-  </entry>
-  <entry>
     <title>夜晚的巴士</title>
     <url>/post/in-the-night-bus/</url>
     <content><![CDATA[<p>霓虹闪烁染华市，</p>
@@ -417,18 +429,6 @@
 <p>丝竹鸣鸣，</p>
 <p>未受凄凄，</p>
 <p>暖于心。</p>
-]]></content>
-      <categories>
-        <category>吊针</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>无题</title>
-    <url>/post/Untitled/</url>
-    <content><![CDATA[<p>流水似无情，</p>
-<p>拨乱有几分。</p>
-<p>梅花点点落，</p>
-<p>拾来蓄单襟。</p>
 ]]></content>
       <categories>
         <category>吊针</category>
@@ -601,38 +601,6 @@
       </tags>
   </entry>
   <entry>
-    <title>网站优化log4.4_美化NexT</title>
-    <url>/post/website-optimization-log4-4/</url>
-    <content><![CDATA[<p>此次优化项目：</p>
-<ol>
-<li>修改NexT主题布局和配色。</li>
-</ol>
-<p>关键点：</p>
-<span id="more"></span>
-
-<h2 id="修改主题配置文件"><a href="#修改主题配置文件" class="headerlink" title="修改主题配置文件"></a>修改主题配置文件</h2><p>取消注释NexT主题配置文件中的 <code>variable</code> <code>mixin</code> <code>style</code> 行。</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="attr">variable:</span> <span class="string">source/_data/variables.styl</span></span><br><span class="line">  <span class="attr">mixin:</span> <span class="string">source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="创建并修改对应styl文件"><a href="#创建并修改对应styl文件" class="headerlink" title="创建并修改对应styl文件"></a>创建并修改对应styl文件</h2><p>在本地根目录的 <code>\source\_data</code> 下新建对应3个文件。</p>
-<p>写法参照NexT主题目录 <code>\source\css</code> 中的文件。</p>
-<h2 id="选取配色"><a href="#选取配色" class="headerlink" title="选取配色"></a>选取配色</h2><p>通过搜索中国传统颜色，选取了苍蓝作为了主要主题色，并分别向深浅递进了几个颜色。最终由深到浅分别是：钢蓝——鸽蓝——灰蓝——苍蓝——鸢尾蓝——清水蓝。接着把正黑和正白替换成了莽丛绿和月白。具体颜色代码可参见下方。</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#0f1423</span> // 钢蓝</span><br><span class="line"><span class="selector-id">#1c2938</span> // 鸽蓝</span><br><span class="line"><span class="selector-id">#21373d</span> // 灰蓝</span><br><span class="line"><span class="selector-id">#134857</span> // 苍蓝</span><br><span class="line"><span class="selector-id">#158bb8</span> // 鸢尾蓝</span><br><span class="line"><span class="selector-id">#93d5dc</span> // 清水蓝</span><br><span class="line"><span class="selector-id">#141e1b</span> // 莽丛绿</span><br><span class="line"><span class="selector-id">#eef7f2</span> // 月白</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>参考</p>
-<ul>
-<li><a href="https://github.com/leirock/blog">Github - leirock&#x2F;blog</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>网站LOG</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>网站优化log4.3_配置Waline</title>
     <url>/post/website-optimization-log4-3/</url>
     <content><![CDATA[<p>看到网上说Valine有一些问题：</p>
@@ -694,6 +662,38 @@
         <tag>Hexo</tag>
         <tag>NexT</tag>
         <tag>Waline</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站优化log4.4_美化NexT</title>
+    <url>/post/website-optimization-log4-4/</url>
+    <content><![CDATA[<p>此次优化项目：</p>
+<ol>
+<li>修改NexT主题布局和配色。</li>
+</ol>
+<p>关键点：</p>
+<span id="more"></span>
+
+<h2 id="修改主题配置文件"><a href="#修改主题配置文件" class="headerlink" title="修改主题配置文件"></a>修改主题配置文件</h2><p>取消注释NexT主题配置文件中的 <code>variable</code> <code>mixin</code> <code>style</code> 行。</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="comment">#postMeta: source/_data/post-meta.njk</span></span><br><span class="line">  <span class="comment">#postBodyEnd: source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="comment">#footer: source/_data/footer.njk</span></span><br><span class="line">  <span class="comment">#bodyEnd: source/_data/body-end.njk</span></span><br><span class="line">  <span class="attr">variable:</span> <span class="string">source/_data/variables.styl</span></span><br><span class="line">  <span class="attr">mixin:</span> <span class="string">source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="创建并修改对应styl文件"><a href="#创建并修改对应styl文件" class="headerlink" title="创建并修改对应styl文件"></a>创建并修改对应styl文件</h2><p>在本地根目录的 <code>\source\_data</code> 下新建对应3个文件。</p>
+<p>写法参照NexT主题目录 <code>\source\css</code> 中的文件。</p>
+<h2 id="选取配色"><a href="#选取配色" class="headerlink" title="选取配色"></a>选取配色</h2><p>通过搜索中国传统颜色，选取了苍蓝作为了主要主题色，并分别向深浅递进了几个颜色。最终由深到浅分别是：钢蓝——鸽蓝——灰蓝——苍蓝——鸢尾蓝——清水蓝。接着把正黑和正白替换成了莽丛绿和月白。具体颜色代码可参见下方。</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#0f1423</span> // 钢蓝</span><br><span class="line"><span class="selector-id">#1c2938</span> // 鸽蓝</span><br><span class="line"><span class="selector-id">#21373d</span> // 灰蓝</span><br><span class="line"><span class="selector-id">#134857</span> // 苍蓝</span><br><span class="line"><span class="selector-id">#158bb8</span> // 鸢尾蓝</span><br><span class="line"><span class="selector-id">#93d5dc</span> // 清水蓝</span><br><span class="line"><span class="selector-id">#141e1b</span> // 莽丛绿</span><br><span class="line"><span class="selector-id">#eef7f2</span> // 月白</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>参考</p>
+<ul>
+<li><a href="https://github.com/leirock/blog">Github - leirock&#x2F;blog</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>网站LOG</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
 </search>
